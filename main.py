@@ -54,7 +54,7 @@ class Google_Map_Extactor:
             [('selected', _compcolor), ('active',_ana2color)])
 
         top.geometry("314x481+576+301")
-        top.title("New Toplevel")
+        top.title("Google Map Extractor")
         top.configure(background="#d9d9d9")
 
         self.menubar = tk.Menu(top,font="TkMenuFont",bg=_bgcolor,fg=_fgcolor)
